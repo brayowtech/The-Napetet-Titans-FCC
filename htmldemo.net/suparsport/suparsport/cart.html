@@ -1,0 +1,318 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<!-- Mirrored from htmldemo.net/suparsport/suparsport/cart.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 18 Mar 2024 12:47:54 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Cart - SuperSport</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="css/montserrat.css">
+    <!-- CSS -->
+    <!-- Bootstrap CSS
+	============================================ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Icon Font CSS
+	============================================ -->
+    <link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Plugins CSS
+	============================================ -->
+    <link rel="stylesheet" href="css/plugins.css">
+    <!-- Style CSS
+	============================================ -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Modernizer JS
+	============================================ -->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+<!-- Body main wrapper start -->
+<div class="wrapper fix">
+
+    <!-- Header Area Start -->
+    <div id="header-area" class="header-area section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 position-relative">
+                    <!-- Logo -->
+                    <a class="logo float-start" href="index.html"><img src="img/logo.png" alt=""></a>
+                    <!-- Mini Cart -->
+                    <div class="mini-cart float-end">
+                        <a href="cart.html"><i class="zmdi zmdi-shopping-basket"></i></a>
+                    </div>
+                    <!---- Menu ---->
+                    <div id="main-menu" class="main-menu float-end">
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">home</a></li>
+                                <li><a href="about.html">about</a></li>
+                                <li><a href="team.html">team</a></li>
+                                <li><a href="fixture.html">fixture</a></li>
+                                <li><a href="point-table.html">point table</a></li>
+                                <li><a href="blog.html">blog</a>
+                                    <ul>
+                                        <li><a href="blog.html">blog</a></li>
+                                        <li><a href="blog-details.html">blog details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="shop.html">shop</a>
+                                    <ul>
+                                        <li><a href="shop.html">shop</a></li>
+                                        <li><a href="product-details.html">product details</a></li>
+                                        <li><a href="cart.html">cart</a></li>
+                                        <li><a href="wishlist.html">wishlist</a></li>
+                                        <li><a href="checkout.html">checkout</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!---- Mobile Menu ---->
+                    <div class="mobile-menu"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header Area End -->
+
+    <!-- Page Banner Area Start -->
+    <div id="page-banner-area" class="page-banner-area section">
+        <div class="container">
+            <div class="row">
+                <div class="page-banner-title text-center col-xs-12">
+                    <h2>cart</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Banner Area End -->
+
+    <!-- Cart Area Start -->
+    <div class="cart-area section pb-90 pt-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Cart Table -->
+                    <div class="cart-table table-responsive mb-50">
+                        <table class="table text-center">
+                            <thead>
+                                <tr>
+                                    <th class="product">product</th>
+                                    <th class="price">price</th>
+                                    <th class="stock">stock status</th>
+                                    <th class="qty">quantity</th>
+                                    <th class="remove">remove</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><div class="cart-product text-start fix">
+                                        <img src="img/product/1.jpg" alt="" />
+                                        <div class="details fix">
+                                            <a href="#">Title Product Here</a>
+                                            <p>Color :  Black</p>
+                                            <p>Size :  SL</p>
+                                        </div>
+                                    </div></td>
+                                    <td><p class="cart-price">$56.00</p></td>
+                                    <td><p class="cart-stock">in stock</p></td>
+                                    <td><div class="cart-pro-qunantuty">
+                                        <input value="0" type="text">
+                                    </div></td>
+                                    <td><button class="cart-pro-remove"><i class="zmdi zmdi-close"></i></button></td>
+                                </tr>
+                                <tr>
+                                    <td><div class="cart-product text-start fix">
+                                        <img src="img/product/2.jpg" alt="" />
+                                        <div class="details fix">
+                                            <a href="#">Title Product Here</a>
+                                            <p>Color :  Black</p>
+                                            <p>Size :  SL</p>
+                                        </div>
+                                    </div></td>
+                                    <td><p class="cart-price">$56.00</p></td>
+                                    <td><p class="cart-stock">in stock</p></td>
+                                    <td><div class="cart-pro-qunantuty">
+                                        <input value="0" type="text">
+                                    </div></td>
+                                    <td><button class="cart-pro-remove"><i class="zmdi zmdi-close"></i></button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Shipping Tax -->
+                <div class="shipping-tax col-lg-4 col-12 mb-30">
+                    <h4>ESTIMATE SHIPPING AND TAX</h4>
+                    <form action="#">
+                        <div class="input-box">
+                            <select>
+                                <option>Country</option>
+                                <option>Bangladesh</option>
+                                <option>Morocco</option>
+                                <option>South Africa</option>
+                            </select>
+                        </div>
+                        <div class="input-box">
+                            <select>
+                                <option>City</option>
+                                <option>Dhaka</option>
+                                <option>Rabat</option>
+                                <option>Cape Town</option>
+                            </select>
+                        </div>
+                        <div class="input-box"><input type="text" placeholder="State/Province" /></div>
+                        <div class="input-box"><input type="text" placeholder="Zip/Postal Code" /></div>
+                        <div class="input-box submit-box"><input type="submit" value="Get a Quote" /></div>
+                    </form>
+                </div>
+                <!-- Product Coupon -->
+                <div class="product-coupon col-lg-4 col-12 mb-30">
+                    <h4>COUPON DISCOUNT</h4>
+                    <p>Enter Your Coupon Code Here</p>
+                    <form action="#">
+                        <div class="input-box"><input type="text" /></div>
+                        <div class="input-box submit-box"><input type="submit" value="Apply Coupon" /></div>
+                    </form>
+                </div>
+                <!-- Procced Checkout -->
+                <div class="procced-checkout col-lg-4 col-12 mb-30">
+                    <h4>CART TOTAL</h4>
+                    <ul>
+                        <li><span class="name">Subtotal</span><span class="price">$ 415.00</span></li>
+                        <li><span class="name">Shipping</span><span class="price">$ 415.00</span></li>
+                        <li><span class="name">Grand Total</span><span class="price">$ 415.00</span></li>
+                    </ul>
+                    <a href="#" class="checkout-link">Procced to checkout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Cart Area End -->
+
+    <!-- Breaking News Area Start -->
+    <div class="breaking-news-area section overlay pb-40 pt-40">
+        <div class="container">
+            <div class="row">
+                <!-- Breaking News Wrapper -->
+                <div class="news-wrapper col-12">
+                    <h4>Breaking News :</h4>
+                    <!-- Breaking News Slider -->
+                    <div class="bnews-slider">
+                        <a href="#">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</a>
+                        <a href="#">There are many variations of passages of Lorem Ipsum available.</a>
+                        <a href="#">There are many variations of passages of Lorem Ipsum available, but the majority.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breaking News Area End -->
+
+    <!-- Footer Top Area Start -->
+    <div class="footer-top-area section pb-70 pt-100">
+    <div class="footer-top-left-bg overlay"></div>
+        <div class="container">
+            <div class="row">
+                <!-- Footer About -->
+                <div class="col-lg-5 col-12 mb-30">
+                    <div class="footer-about">
+                        <img src="img/logo.png" alt="">
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proiden</p>
+                        <div class="social fix">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-rss"></i></a>
+                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer Twitter -->
+                <div class="col-lg-4 col-md-6 col-12 mb-30">
+                    <div class="twitter-widget">
+                        <h3 class="title">Latest Tweets</h3>
+                        <div class="single-twite">
+                            <p>Duis aute irure <a href="#">@dolor</a> in rderiin voluptate velit esse cillum dolore eu ft nulla pariatur. Excepteur <a href="#">@sint</a> occaecat..</p>
+                            <span>30 minutes ago</span>
+                        </div>
+                        <div class="single-twite">
+                            <p>Duis aute irure <a href="#">@dolor</a> in rderiin voluptate velit esse cillum dolore eu ft </p>
+                            <span>15 minutes ago</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer Subscribe -->
+                <div class="col-lg-3 col-md-6 col-12 mb-30">
+                    <div class="subscribe-widget">
+                        <h3 class="title">Newsletters</h3>
+                        <div class="subscribe-form">
+                            <form action="#">
+                                <input type="text" placeholder="your email address">
+                                <button class="submit"><i class="zmdi zmdi-mail-send"></i></button>
+                            </form>
+                        </div>
+                        <p><span>Phone:</span> +98 996 554 658</p>
+                        <p><span>email:</span> sport@email.com</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Footer Top Area End -->
+
+    <!-- Footer Bottom Area Start -->
+    <div class="footer-bottom-area section">
+        <div class="container">
+            <div class="row justify-content-center justify-content-md-between align-items-center">
+            
+                <!-- Copyright -->
+                <div class="copyright col-auto">
+                    <p>Copyright &copy; <span>Supar Sport</span>. 2021.All right reserved</p>
+                </div>
+                <!-- Author Credit -->
+                <div class="author-credit col-auto">
+                    <p>Created by <a href="https://hasthemes.com/">Hasthemes</a> With <i class="fa fa-heart-o"></i></p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Footer Bottom Area End -->
+
+
+</div>
+<!-- Body main wrapper end -->
+
+<!-- JS -->
+
+<!-- jQuery JS
+============================================ -->
+<script src="js/vendor/jquery-1.12.4.min.js"></script>
+<!-- Bootstrap JS
+============================================ -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<!-- Plugins JS
+============================================ -->
+<script src="js/plugins.js"></script>
+<!-- Ajax Mail JS
+============================================ -->
+<script src="js/ajax-mail.js"></script>
+<!-- Main JS
+============================================ -->
+<script src="js/main.js"></script>
+</body>
+
+
+<!-- Mirrored from htmldemo.net/suparsport/suparsport/cart.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 18 Mar 2024 12:47:54 GMT -->
+</html>
